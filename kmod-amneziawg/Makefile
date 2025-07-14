@@ -3,14 +3,14 @@ include $(TOPDIR)/rules.mk
 include $(INCLUDE_DIR)/kernel.mk
 
 PKG_NAME:=kmod-amneziawg
-PKG_VERSION:=0.0.1
+PKG_VERSION:=0.0.2
 PKG_RELEASE:=1
 
 include $(INCLUDE_DIR)/package.mk
 
 define KernelPackage/amneziawg
 	SECTION:=kernel
-	CATEGORY:=Kernel Modules
+	CATEGORY:=Kernel modules
 	SUBMENU:=Network Support
 	URL:=https://amnezia.org/
 	MAINTAINER:=Amnezia Admin <admin@amnezia.org>
